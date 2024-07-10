@@ -12,7 +12,7 @@
 .common_button{
     border: 1px solid #0D1321;
     border-radius: 8px;
-    padding: 16px 22px;
+    padding: 13px 17px;
     font-size: 20px;
     background: rgb(255, 255, 255);
 }
@@ -93,8 +93,13 @@ header{
 }
 .story{
     margin: 0 200px;
-    height: 300px;
-    background-color: antiquewhite;
+    height: 700px;
+    border: 1px solid black;
+}
+.guide{
+    padding: 5px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
 .goals{
     border: 1px solid #0D1321;
@@ -137,7 +142,7 @@ header{
 }
 .support{
     height: 313px;
-    background-image: url("../assets/handshake.jpg");
+    background: url("../assets/handshake.jpg");
     background-size: cover;
 }
 .support_title{
@@ -145,13 +150,21 @@ header{
     margin: 64px auto;
     padding: ;
     border: 1px solid white;
+    color: #FFFFFF;
 }
-.support_title h3,p{
-    /* color: #FFFFFF; */
+.support_title p{
+    opacity: 0.7
+    
+}
+.support form{
+    margin: 0px 100px;
 }
 .support input[type="text"]{
-    height: 55px;
+    width: 300px;
+    height: 52px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    padding: 0px 30px 0px 20px;
+    margin: 15px;
 }
