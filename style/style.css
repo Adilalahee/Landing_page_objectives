@@ -15,7 +15,9 @@
     padding: 13px 17px;
     font-size: 20px;
     background: rgb(255, 255, 255);
+    cursor: pointer;
 }
+/* header start */
 header{
     height: 660px;
 
@@ -32,7 +34,6 @@ header{
 
 }
 .header_banner{
-    border: 5px solid;
     text-align: center;
     padding: 30px;
 }
@@ -41,23 +42,28 @@ header{
 
 }
 .header_button{
-    color: rgb(255, 255, 255);
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
+.header_button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* header end */
+/* group content start */
+.groups{
+    margin-top: 50px;
+}
 .group{
-    margin: 0 200px;
-    border: 1px solid black;
+    margin: 0px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
 .group_content{
-    border: 1px solid black;
     margin: 0 150px;
 }
 .group_title{
     text-align: center;
-    border: 1px solid black;
 }
 .group_title h3{
     font-family: Azeret Mono;
@@ -68,12 +74,10 @@ header{
 .group_item{
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
     padding: 0 48px;
 
 }
 .item{
-    border: 1px solid black;
     width: 50%;
     margin: 50px 0;
 }
@@ -90,22 +94,26 @@ header{
     font-size: 20px;
     background: rgb(255, 255, 255);
     opacity: .7;
+    cursor: pointer;
 }
+/* group content end */
+/* inspiration start */
 .story{
     margin: 0 200px;
     height: 700px;
-    border: 1px solid black;
 }
 .guide{
     padding: 5px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
-.goals{
-    border: 1px solid #0D1321;
-    margin: 0 200px;
+.guide iframe{
+    border-radius: 16px;
 }
-.goal_title{
+/* inspiration end */
+/* current target start */
+.goals{
+    margin: 140px 150px;
 }
 .goal_card{
     display: flex;
@@ -119,6 +127,7 @@ header{
 .card_button{
     color: #0D1321;
     font-weight: bold;
+    cursor: pointer;
 }
 .card_2{
     background: rgba(0, 76, 232, 0.05);
@@ -126,9 +135,8 @@ header{
 .card_3{
     background: rgba(255, 223, 0, 0.05);
 }
-.targets{
-
-}
+/* current target end */
+/* next target start */
 .target{
     display: flex;
     box-sizing: border-box;
@@ -140,7 +148,11 @@ header{
 .target_item{
     padding: 40px;  
 }
+/* next target end */
+/* support end */
 .support{
+    margin-top: 0;
+    margin-bottom: 0;
     height: 313px;
     background: url("../assets/handshake.jpg");
     background-size: cover;
@@ -148,8 +160,6 @@ header{
 .support_title{
     width: 80%;
     margin: 64px auto;
-    padding: ;
-    border: 1px solid white;
     color: #FFFFFF;
 }
 .support_title p{
@@ -168,3 +178,18 @@ header{
     padding: 0px 30px 0px 20px;
     margin: 15px;
 }
+/* support end */
+/* footer start */
+#footer{
+    background: rgba(13, 19, 33, 0.03);
+    margin: 10px 0px;
+}
+.footer_title{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 150px ;
+}
+.footer_social a{
+    margin: 5px;
+}
+/* footer end */
