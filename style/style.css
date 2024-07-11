@@ -139,7 +139,7 @@ header{
 /* next target start */
 .target{
     display: flex;
-    box-sizing: border-box;
+    margin: 9px 0;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -191,5 +191,6 @@ header{
 }
 .footer_social a{
     margin: 5px;
+    font-size: 25px;
 }
 /* footer end */
